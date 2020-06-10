@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+    <context id="MybatisGenerator" targetRuntime="MyBatis3">
+
+        <plugin type="org.mybatis.generator.plugins.EqualsHashCodePlugin" />
+
+        <commentGenerator>
+            <property name="suppressDate" value="true"/>
+            <property name="suppressAllComments" value="true"/>
+            <property name="javaFileEncoding" value="UTF-8"/>
+        </commentGenerator>
+
+        <!--load from properties-->
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://10.24.76.170:5002/xframe_platform"
+                        userId="xframe_platform"
+                        password="765$DDEzuf">
+        </jdbcConnection>
+
+        <!--model-->
+        <javaModelGenerator targetPackage="com.myz.tools.domain" targetProject="src/main/java">
+            <property name="enableSubPackages" value="true" />
+            <property name="trimStrings" value="true" />
+        </javaModelGenerator>
+
+        <!--SQL mapper.xml-->
+        <sqlMapGenerator targetPackage="com.myz.tools.mapper" targetProject="src/main/resources">
+            <property name="enableSubPackages" value="true" />
+        </sqlMapGenerator>
+
+        <!--mapper   type=XMLMAPPER 的话sqlMapGenerator才生效，这里是type=ANNOTATEDMAPPER -->
+        <javaClientGenerator type="ANNOTATEDMAPPER" targetPackage="com.myz.tools.mapper"  targetProject="src/main/java">
+            <property name="enableSubPackages" value="true" />
+        </javaClientGenerator>
+
+        <table tableName="zebra_demo" domainObjectName="Demo">
+            <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
+        </table>
+
+    </context>
+</generatorConfiguration>
