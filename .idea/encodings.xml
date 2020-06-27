@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/project-tools" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/project-tools/mybatis-generator-tools" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/project-tools/comment-mybatis-generator" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/project-tools/sample-mybatis-generator" charset="UTF-8" />
   </component>
 </project>

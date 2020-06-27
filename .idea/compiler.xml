@@ -6,13 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="mybatis-generator-tools" />
+        <module name="comment-mybatis-generator" />
+        <module name="sample-mybatis-generator" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="mybatis-generator-tools" target="1.5" />
+      <module name="comment-mybatis-generator" target="1.5" />
       <module name="project-tools" target="1.5" />
       <module name="quick-build-parent" target="1.5" />
+      <module name="sample-mybatis-generator" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

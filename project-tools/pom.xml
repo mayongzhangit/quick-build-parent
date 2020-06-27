@@ -14,7 +14,8 @@
     <url>http://maven.apache.org</url>
 
     <modules>
-        <module>mybatis-generator-tools</module>
+        <module>sample-mybatis-generator</module>
+        <module>comment-mybatis-generator</module>
     </modules>
 
 </project>
