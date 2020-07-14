@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/project-tools/comment-mybatis-generator/comment-mybatis-generator.iml" filepath="$PROJECT_DIR$/project-tools/comment-mybatis-generator/comment-mybatis-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project-tools/sample-mybatis-generator/mybatis-generator-tools.iml" filepath="$PROJECT_DIR$/project-tools/sample-mybatis-generator/mybatis-generator-tools.iml" />
       <module fileurl="file://$PROJECT_DIR$/project-tools/project-tools.iml" filepath="$PROJECT_DIR$/project-tools/project-tools.iml" />
       <module fileurl="file://$PROJECT_DIR$/quick-build-parent.iml" filepath="$PROJECT_DIR$/quick-build-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/project-tools/sample-mybatis-generator/sample-mybatis-generator.iml" filepath="$PROJECT_DIR$/project-tools/sample-mybatis-generator/sample-mybatis-generator.iml" />
