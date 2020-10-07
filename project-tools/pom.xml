@@ -16,6 +16,7 @@
     <modules>
         <module>sample-mybatis-generator</module>
         <module>comment-mybatis-generator</module>
+        <module>dbrouter-annotation-plugin-mybatis-generator</module>
     </modules>
 
 </project>

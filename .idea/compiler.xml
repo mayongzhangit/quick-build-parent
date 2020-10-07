@@ -6,16 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="dbrouter-annotation-plugin-mybatis-generator" />
         <module name="sample-mybatis-generator" />
         <module name="comment-mybatis-generator" />
         <module name="mybatis-generator-tools" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="comment-mybatis-generator" target="1.5" />
-      <module name="mybatis-generator-tools" target="1.5" />
-      <module name="project-tools" target="1.5" />
-      <module name="quick-build-parent" target="1.5" />
+      <module name="comment-mybatis-generator" target="1.8" />
+      <module name="dbrouter-annotation-plugin-mybatis-generator" target="1.8" />
+      <module name="mybatis-generator-tools" target="1.8" />
+      <module name="project-tools" target="1.8" />
+      <module name="quick-build-parent" target="1.8" />
       <module name="sample-mybatis-generator" target="1.5" />
     </bytecodeTargetLevel>
   </component>
