@@ -26,6 +26,8 @@
                         connectionURL="jdbc:mysql://localhost:3306/zjx"
                         userId="root"
                         password="root">
+                <!-- 生成主键增删改查  .ByPrimaryKey的方法-->
+            <property name="useInformationSchema" value="true"></property>
         </jdbcConnection>
 
         <!--model-->
