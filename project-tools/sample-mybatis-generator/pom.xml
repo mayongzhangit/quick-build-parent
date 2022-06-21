@@ -33,7 +33,7 @@
                     <dependency>
                         <groupId>mysql</groupId>
                         <artifactId>mysql-connector-java</artifactId>
-                        <version>8.0.16</version>
+                        <version>8.0.28</version>
                     </dependency>
                     <!--DB注释第一步：引入自己定制的注释依赖-->
                     <dependency>
